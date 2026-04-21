@@ -1,29 +1,73 @@
-<div class="container">
-  <h2>Our Services</h2>
-
-  <div class="grid">
-
-    <div class="card">
-      <img src="https://source.unsplash.com/400x300/?care,elderly" style="width:100%;border-radius:12px;">
-      <h3>Personal Care</h3>
-    </div>
-
-    <div class="card">
-      <img src="https://source.unsplash.com/400x300/?nurse,home" style="width:100%;border-radius:12px;">
-      <h3>Live-in Care</h3>
-    </div>
-
-    <div class="card">
-      <img src="https://source.unsplash.com/400x300/?medicine,care" style="width:100%;border-radius:12px;">
-      <h3>Medication Support</h3>
-    </div>
-
-    <!-- ⭐ FREE CONSULTATION CARD -->
-    <div class="consultation">
-      <h2>Free Care Consultation</h2>
-      <p>Speak with our team to build a personalised care plan for your loved one.</p>
-      <button>Book Free Call</button>
-    </div>
-
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Services | WELLMORE CARE</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="fixed-header">
+  <div class="container header-inner">
+    <a class="brand" href="index.html"><div class="logo">WC</div><div><h1>WELLMORE CARE</h1><p>Compassionate home care, built around dignity</p></div></a>
+    <button class="nav-toggle">Menu</button>
+    <nav class="nav">
+      <a href="index.html">Home</a><a class="active" href="services.html">Services</a><a href="staff.html">Our Staff</a><a href="why-choose-us.html">Why Choose Us</a><a href="contact.html">Contact Us</a><a href="recruitment.html">Recruitment</a>
+    </nav>
   </div>
-</div>
+</header>
+
+<main class="section">
+  <div class="container page-title">
+    <h2>Our Services</h2>
+    <p>These services reflect common homecare support needs, such as help with washing, dressing, meals, medicines, shopping and companionship [web:5]. Free commercial-use home care imagery can be sourced from Unsplash [web:1][web:10].</p>
+  </div>
+
+  <div class="container services-grid">
+    <article class="service-card">
+      <img src="https://images.unsplash.com/photo-1576765607924-3f7b8410a787?auto=format&fit=crop&w=900&q=80" alt="Personal care">
+      <div class="service-body"><h4>1. Personal Care</h4><p>Support with bathing, washing, dressing, grooming and toileting in a respectful, dignified way.</p></div>
+    </article>
+    <article class="service-card">
+      <img src="https://images.unsplash.com/photo-1516549655169-df83a0774514?auto=format&fit=crop&w=900&q=80" alt="Meal preparation">
+      <div class="service-body"><h4>2. Meal Preparation</h4><p>Helping clients prepare nutritious meals and drinks suited to preference, routine and dietary needs.</p></div>
+    </article>
+    <article class="service-card">
+      <img src="https://images.unsplash.com/photo-1516302752625-fcc3c50ae61f?auto=format&fit=crop&w=900&q=80" alt="Medication support">
+      <div class="service-body"><h4>3. Medication Support</h4><p>Gentle prompts and support with taking medicines as prescribed and keeping routines on track.</p></div>
+    </article>
+    <article class="service-card">
+      <img src="https://images.unsplash.com/photo-1505483531331-8a9f7f0edb2b?auto=format&fit=crop&w=900&q=80" alt="Companionship care">
+      <div class="service-body"><h4>4. Companionship Care</h4><p>Friendly social support, conversation, outings and emotional wellbeing assistance.</p></div>
+    </article>
+    <article class="service-card">
+      <img src="https://images.unsplash.com/photo-1581579185169-4e5a67a2a8b7?auto=format&fit=crop&w=900&q=80" alt="Shopping support">
+      <div class="service-body"><h4>5. Shopping & Errands</h4><p>Support with shopping, prescription collection, appointments and everyday tasks.</p></div>
+    </article>
+    <article class="service-card">
+      <img src="https://images.unsplash.com/photo-1584515933487-779824d29309?auto=format&fit=crop&w=900&q=80" alt="Mobility support">
+      <div class="service-body"><h4>6. Mobility Assistance</h4><p>Safe help around the home, transfers, walking support and promoting independence.</p></div>
+    </article>
+    <article class="service-card">
+      <img src="https://images.unsplash.com/photo-1516549655169-6f78b4e0d8f4?auto=format&fit=crop&w=900&q=80" alt="Respite care">
+      <div class="service-body"><h4>7. Respite Care</h4><p>Short-term care that gives family carers time to rest while loved ones remain supported.</p></div>
+    </article>
+    <article class="service-card">
+      <img src="https://images.unsplash.com/photo-1512678080530-7760d81faba6?auto=format&fit=crop&w=900&q=80" alt="Dementia support">
+      <div class="service-body"><h4>8. Dementia Support</h4><p>Patient, familiar and reassuring care tailored to people living with memory loss.</p></div>
+    </article>
+    <article class="service-card">
+      <img src="https://images.unsplash.com/photo-1516549655169-6d1bf6d1b2b3?auto=format&fit=crop&w=900&q=80" alt="Live in care">
+      <div class="service-body"><h4>9. Live-In Care</h4><p>Round-the-clock support for people who need ongoing assistance at home.</p></div>
+    </article>
+    <article class="service-card">
+      <img src="https://images.unsplash.com/photo-1601271853348-f0d6f3c7b5c0?auto=format&fit=crop&w=900&q=80" alt="Specialist care">
+      <div class="service-body"><h4>10. Specialist Care</h4><p>Flexible assistance for complex needs, recovery, long-term conditions and tailored support plans.</p></div>
+    </article>
+  </div>
+</main>
+
+<footer class="footer"><div class="container footer-inner"><span>© <span data-year></span> WELLMORE CARE. All rights reserved.</span><span class="badge">Services built around independence</span></div></footer>
+<script src="script.js"></script>
+</body>
+</html>
