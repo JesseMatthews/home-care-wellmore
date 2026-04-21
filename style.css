@@ -271,3 +271,74 @@ input:focus, textarea:focus, select:focus{border-color:rgba(69,214,200,.45)}
   .brand h1{font-size:.96rem}
   .brand p{display:none}
 }
+
+/* ================================
+   WHITE + GOLD LUXURY OVERRIDE
+   (keeps your structure unchanged)
+================================= */
+
+body{
+  background:
+    radial-gradient(circle at top left, rgba(212,175,55,.08), transparent 40%),
+    radial-gradient(circle at top right, rgba(245,215,110,.10), transparent 45%),
+    linear-gradient(180deg, #ffffff 0%, #f7f7f7 100%);
+}
+
+/* Make all dark panels light */
+.card,
+.feature-card,
+.service-card,
+.choose-card,
+.staff-card,
+.contact-card,
+.form-card{
+  background: #ffffff;
+  border: 1px solid rgba(0,0,0,.08);
+  box-shadow: 0 18px 50px rgba(0,0,0,.06);
+}
+
+/* Header + footer light luxury glass */
+.fixed-header,
+.footer{
+  background: rgba(255,255,255,.85);
+  backdrop-filter: blur(14px);
+  border-color: rgba(0,0,0,.08);
+}
+
+/* Text tuning for light theme */
+h1, h2, h3, h4{
+  color:#1a1a1a;
+}
+
+/* Gold accent polish */
+.kicker{
+  background: rgba(212,175,55,.12);
+  border: 1px solid rgba(212,175,55,.25);
+  color:#b38a1d;
+}
+
+.nav a:hover,.nav a.active{
+  background: rgba(212,175,55,.12);
+  color:#1a1a1a;
+}
+
+/* Buttons refinement */
+.btn-primary{
+  background: linear-gradient(135deg, #d4af37, #f5d76e);
+  color:#1a1a1a;
+}
+
+.btn-secondary{
+  background:#ffffff;
+  border:1px solid rgba(0,0,0,.12);
+  color:#1a1a1a;
+}
+
+/* Cards hover luxury feel */
+.service-card:hover,
+.feature-card:hover{
+  transform: translateY(-4px);
+  box-shadow: 0 25px 70px rgba(0,0,0,.10);
+  border-color: rgba(212,175,55,.35);
+}
+
