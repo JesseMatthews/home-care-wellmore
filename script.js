@@ -1,15 +1,18 @@
-const cards = document.querySelectorAll('.card');
+document.addEventListener("DOMContentLoaded", () => {
+  const navToggle = document.querySelector(".nav-toggle");
+  const nav = document.querySelector(".nav");
+  if (navToggle && nav) {
+    navToggle.addEventListener("click", () => nav.classList.toggle("open"));
+  }
 
-const observer = new IntersectionObserver(entries => {
-  entries.forEach(entry => {
-    if (entry.isIntersecting) {
-      entry.target.classList.add('reveal');
-    }
+  const cards = document.querySelectorAll(".choose-card");
+  cards.forEach((card) => {
+    card.addEventListener("click", () => {
+      cards.forEach((c) => c.classList.remove("active"));
+      card.classList.add("active");
+    });
   });
-}, {
-  threshold: 0.1
-});
 
-cards.forEach(card => {
-  observer.observe(card);
+  const year = document.querySelector("[data-year]");
+  if (year) year.textContent = new Date().getFullYear();
 });
