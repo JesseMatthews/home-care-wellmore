@@ -24,7 +24,7 @@ const NAV_HTML = `
 
   <!-- Logo — links back to home page -->
   <a class="nav-logo" href="index.html" title="Bloomhaven Care — Home">
-    <img src="images/logo.jpg" alt="Bloomhaven Care Logo">
+    <img src="bbf59205-3c90-4e33-9421-d32c4d878a0b.jpeg" alt="Bloomhaven Care Logo">
   </a>
 
   <!-- Desktop navigation links -->
