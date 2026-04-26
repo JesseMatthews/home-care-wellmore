@@ -72,7 +72,7 @@ const FOOTER_HTML = `
 
       <!-- Brand column -->
       <div>
-        <img src="images/logo.jpg" alt="Bloomhaven Care" class="footer-logo-img">
+        <img src="logo.jpg" alt="Bloomhaven Care" class="footer-logo-img">
         <p class="footer-tagline">Compassionate Care. Trusted Support. Better Life.</p>
         <!-- CHANGE: Update company description -->
         <p class="footer-desc">Professional, compassionate home care services delivered with dignity, respect, and genuine kindness. Trusted by hundreds of families.</p>
