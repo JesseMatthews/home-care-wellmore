@@ -326,7 +326,7 @@ nav.scrolled {
 }
 /* Logo image — height scales with nav height */
 .nav-logo img {
-  height: calc(var(--nav-h) - 18px);  /* Fills most of nav height */
+  height: calc(var(--nav-h) - 4px);  /* Fills most of nav height */
   width: auto;
   display: block;
   object-fit: contain;
